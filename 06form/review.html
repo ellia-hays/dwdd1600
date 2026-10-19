@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ellia Hays">
+    <meta name="description" content="One Brave Thing: Biulding Conidence One Step at a Time">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gochi+Hand&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="brave.css">
+
+    <meta charset="UTF-8">
+    <title>Share Your Story</title>
+</head>
+
+<body>
+    <!--start the page head-->
+    <header>
+        <span>One Brave Thing</span>
+    </header>
+
+    <!-- start navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">One Step of Bravery</a></li>
+            <li><a href="challenge.html">30 Day Challenge</a></li>
+            <li><a href="ambassador.html"> Ambassadors Photos</a></li>
+            <li class="active"><a href="review.html">Share Your Story</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Share Your Story</h1>
+        <form method="get" class="story" action="thanks.html">
+            <fieldset>
+                <legend>Your information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Initial* <input type="text" name="lname" required> </label>
+                <label>Cell Number* <input type="tel" name="phone" required placeholder="012-345-6789"> </label>
+                <label> Email <input type="email" name="email" required> </label>
+            </fieldset>
+            <fieldset>
+                <legend> What would you like to share?</legend>
+                <label><input type="radio" name="method" value="visit">A classroom visit</label>
+                <label><input type="radio" name="method" value="experience">My own brave experience</label>
+                <label> <input type="radio" name="method" value="Both">Both</label>
+            </fieldset>
+            <fieldset>
+                <legend>Tell us your story</legend>
+                <textarea name="story" rows="6" required placeholder="When was a time you did something brave..."></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>What attribute have you gained through you experiance?</legend>
+                <label><input type="checkbox" name="method" value="Real">Real World Experience</label>
+                <label><input type="checkbox" name="method" value="Confidence">Confidence</label>
+                <label><input type="checkbox" name="method" value="Kindness">Kindness</label>
+                <label><input type="checkbox" name="method" value="Courage">Courage</label>
+                <label><input type="checkbox" name="method" value="Other">Other</label>
+            </fieldset>
+            <fieldset>
+    <legend>How did you hear about One Brave Thing?</legend>
+    <label>Choose an option
+        <select name="source" required>
+            <option value="">Please select</option>
+            <option value="classroom">Classroom visit</option>
+            <option value="social-media">Social media</option>
+            <option value="friend">A friend</option>
+            <option value="website">Website</option>
+            <option value="other">Other</option>
+        </select>
+    </label>
+</fieldset>
+            <fieldset>
+                <legend>Can we share your story?</legend>
+                <label><input type="radio" value="name">Yes, with my name</label>
+                <label><input type="radio" value="anonymously">Yes, anonymously</label>
+                <label><input type="radio" value="ask">Please ask first</label>
+                <label><input type="radio" value="no">No, keep my story private</label>
+            </fieldset>
+
+            <label>
+                <textarea name="comments"> Comments... </textarea>
+            </label>
+           <label><input type="submit" value="Leave Your Review"></label>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy;2026 &bull;Ellia Hays &bull;One Brave Thing</p>
+    </footer>
+
+
+</body>
+
+</html>
